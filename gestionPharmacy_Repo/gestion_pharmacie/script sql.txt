@@ -1,3 +1,0 @@
-create table produit (id_produit serial primary key , nom_produit varchar(30), quantite int , prix float , description varchar(30));
-select * from produit 
-insert into produit (nom_produit,quantite, prix, description)values('produit 1', 2000, 200.33, 'description de produit 1')
